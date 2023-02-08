@@ -1,2 +1,2 @@
 # Course-Programming-Fundamentals-SoftUni
-Tasks from course programming fundamentals - basic syntax
+Tasks from course programming fundamentals
