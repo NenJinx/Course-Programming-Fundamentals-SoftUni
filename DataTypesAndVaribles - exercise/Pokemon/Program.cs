@@ -18,7 +18,7 @@ namespace Pokemon
                 distance = int.Parse(Console.ReadLine());
                 y = int.Parse(Console.ReadLine());
                 halfPower = (double)pokePower / 2;
-                while (pokePower >= distance)
+                while (pokePower >= distance && y > 0)
                 {
                     pokePower = pokePower - distance;
                     countTargets++;
