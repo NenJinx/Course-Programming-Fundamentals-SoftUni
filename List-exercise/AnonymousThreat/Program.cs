@@ -64,8 +64,8 @@ namespace AnonymousThreat
                         tempList.Add(input[index].Substring(0, partLength));
                         input[index] = input[index].Remove(0, partLength);
                     }
-                    input.RemoveAt(int.Parse(cmdArgs[1]));
-                    input.InsertRange(int.Parse(cmdArgs[1]), tempList);
+                    input.RemoveAt(index);
+                    input.InsertRange(index), tempList);
                 }
             }
             Console.WriteLine(string.Join(" ", input));
