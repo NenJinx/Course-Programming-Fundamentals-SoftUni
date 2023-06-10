@@ -16,7 +16,6 @@ namespace ArrayRotation
             int timesToRotate = rotations % array.Length;
             for (int i = 1; i <= timesToRotate; i++)
             {
-
                 int firstElement = array[0];
 
                 for (int j = 1; j < array.Length; j++)
