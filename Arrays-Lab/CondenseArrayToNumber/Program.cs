@@ -11,7 +11,7 @@ namespace CondenseArrayToNumber
         static void Main(string[] args)
         {
 
-            int[] array = Console.ReadLine().Split(' ').
+            int[] array = Console.ReadLine().Split(' '). 
             Select(int.Parse).ToArray();
             int count = 0;
             int counter = array.Length - 1;
