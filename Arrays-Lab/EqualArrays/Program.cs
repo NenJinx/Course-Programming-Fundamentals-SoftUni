@@ -1,9 +1,3 @@
-﻿using System;
-using System.Collections.Generic; 
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace EqualArrays
 {
     internal class Program
@@ -11,10 +5,10 @@ namespace EqualArrays
         static void Main(string[] args)
         {
 
-            int[] firstArray = Console.ReadLine().Split(' ').
+            int[] firstArray = Console.ReadLine().Split(" ",StringSplitOptions.RemoveEmptyEntries).
             Select(int.Parse).ToArray();
 
-            int[] secondArray = Console.ReadLine().Split(' ').
+            int[] secondArray = Console.ReadLine().Split(" ",StringSplitOptions.RemoveEmptyEntries).
             Select(int.Parse).ToArray();
             int sum = 0;
             int count = 0;
