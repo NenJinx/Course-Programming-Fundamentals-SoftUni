@@ -14,7 +14,7 @@ namespace EncryptSortAndPrintArray
             
 
             int numberOfStrings = int.Parse(Console.ReadLine());
-            string[] names = new string[numberOfStrings];
+            string[] names = new string[numberOfStrings]; 
             int[] valueOfString = new int[numberOfStrings];
 
             for (int i = 0; i < names.Length; i++)
