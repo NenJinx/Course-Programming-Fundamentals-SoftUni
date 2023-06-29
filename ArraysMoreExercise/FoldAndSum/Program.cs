@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace FoldAndSum
-{
+{ 
     internal class Program
     {
         static void Main(string[] args)
