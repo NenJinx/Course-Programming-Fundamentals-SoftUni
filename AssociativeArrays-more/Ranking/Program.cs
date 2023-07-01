@@ -10,7 +10,7 @@ namespace Ranking
     {
         static void Main(string[] args)
         {
-            Dictionary<string, string> contestsAndPasswords = new Dictionary<string, string>();
+            Dictionary<string, string> contestsAndPasswords = new Dictionary<string, string>(); 
             string[] separator = { ":" };
             string[] separatorOne = { "=>" };
             string[] separatorTwo = { " -> " };
