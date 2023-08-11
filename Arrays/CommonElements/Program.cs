@@ -12,8 +12,8 @@ namespace CommonElements
         {
             string[] firstArray, secondArray;
 
-            firstArray = Console.ReadLine().Split(' ').ToArray();
-            secondArray = Console.ReadLine().Split(' ').ToArray();
+            firstArray = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).ToArray();
+            secondArray = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).ToArray();
 
             for (int i = 0; i < secondArray.Length; i++)
             {
