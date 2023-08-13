@@ -10,7 +10,7 @@ namespace EqualSum
     {
         static void Main(string[] args)
         {
-            int[] values = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            int[] values = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
 
             int leftSum = 0;
             int rightSum = 0;
