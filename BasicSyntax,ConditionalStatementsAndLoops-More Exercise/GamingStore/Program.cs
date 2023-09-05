@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace GamingStore
 {
     internal class Program
@@ -51,7 +45,6 @@ namespace GamingStore
                                 Console.WriteLine("Bought CS: OG");
                                 money -= gamePrice;
                                 totalSpent += gamePrice;
-
                             }
                             else
                             {
@@ -65,7 +58,6 @@ namespace GamingStore
                                 Console.WriteLine("Bought Zplinter Zell");
                                 money -= gamePrice;
                                 totalSpent += gamePrice;
-
                             }
                             else
                             {
@@ -79,7 +71,6 @@ namespace GamingStore
                                 Console.WriteLine("Bought Honored 2");
                                 money -= gamePrice;
                                 totalSpent += gamePrice;
-
                             }
                             else
                             {
@@ -93,7 +84,6 @@ namespace GamingStore
                                 Console.WriteLine("Bought RoverWatch");
                                 money -= gamePrice;
                                 totalSpent += gamePrice;
-
                             }
                             else
                             {
