@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CountCharsInAString
 {
     internal class Program
     {
         static void Main(string[] args)
-
         {
             Dictionary<char, int> countSymbols = new Dictionary<char, int>();
 
@@ -28,13 +24,11 @@ namespace CountCharsInAString
                 }
 
                 countSymbols[symbol]++;
-
             }
             foreach (var item in countSymbols)
             {
                 Console.WriteLine($"{item.Key} -> {item.Value}");
             }
-
         }
     }
 }
